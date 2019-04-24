@@ -41,15 +41,13 @@ class Motorcycle(GroundVehicle):
 # flight vehicles
 
 
-class FlightVehicle:
+class FlightVehicle(Vehicle):
     pass
 
 
 class Airplane(FlightVehicle):
     pass
 
-# space vehicles
 
-
-class Starship:
+class Starship(FlightVehicle):
     pass
