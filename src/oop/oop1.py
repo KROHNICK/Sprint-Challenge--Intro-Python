@@ -20,35 +20,28 @@
 
 
 class Vehicle:  # base class
-    def __init__(self, name):
-        self.name = name
+    pass
 
 
 class GroundVehicle(Vehicle):
-    def __init__(self, name, desc):
-        super().__init__(name, desc)
+    pass
 
 
 class Car(GroundVehicle):
-    def __init__(self, name, desc):
-        super().__init__(name, desc)
+    pass
 
 
 class Motorcycle(GroundVehicle):
-    def __init__(self, name, desc):
-        super().__init__(name, desc)
+    pass
 
 
 class FlightVehicle:  # base class
-    def __init__(self, name):
-        self.name = name
+    pass
 
 
 class Airplane(FlightVehicle):
-    def __init__(self, name, desc):
-        super().__init__(name, desc)
+    pass
 
 
 class Starship:  # base class
-    def __init__(self, name):
-        self.name = name
+    pass
